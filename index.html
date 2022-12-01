@@ -144,19 +144,17 @@
   <section class="section">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
-        <div class="column is-two-thirds">
+        <div class="column is-four-fifths">
           <div align="center">
           <h2 class="title is-3">Abstract</h2>
           </div>
           <div class="content has-text-justified">
-            <div class="column is-two-thirds">
             <p>
             Classifiers and generators have long been separated. We break down this separation and showcase that conventional neural network classifiers can generate high-quality images of a large number of categories, being comparable to the state-of-the-art generative models (e.g., DDPMs and GANs).
 We achieve this by computing the partial derivative of the classification loss function with respect to the input to optimize the input to produce an image. Since it is widely known that directly optimizing the inputs is similar to targeted adversarial attacks incapable of generating human-meaningful images, we propose a mask-based stochastic reconstruction module to make the gradients semantic-aware to synthesize plausible images. We further propose a progressive-resolution technique to guarantee fidelity, which produces photorealistic images. Furthermore, we introduce a distance metric loss and a non-trivial distribution loss to ensure classification neural networks can synthesize diverse and high-fidelity images. Using traditional neural network classifiers, we can generate good-quality images of 256$\times$256 resolution on ImageNet. Intriguingly, our method is also applicable to text-to-image generation by regarding image-text foundation models as generalized classifiers.
               
 Proving that classifiers have learned the data distribution and are ready for image generation has far-reaching implications, for classifiers are much easier to train than generative models like DDPMs and GANs. We don't even need to train classification models because tons of public ones are available for download. Also, this holds great potential for the interpretability and robustness of classifiers.
             </p>
-            </div>
           </div>
         </div>
       </div>
@@ -175,7 +173,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_intro_generator.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -197,7 +195,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_intro_cls.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -221,7 +219,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_framework.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -244,7 +242,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_pr.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -267,7 +265,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_div_loss.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -290,7 +288,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_div_cmp.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -313,7 +311,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_t2i.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -336,7 +334,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_t2i_cmp1.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -359,7 +357,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_t2i_cmp2.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -381,7 +379,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_sampling.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -403,7 +401,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_cmp.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -426,7 +424,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_sample1.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -448,7 +446,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_sample2.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -470,7 +468,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_sample3.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -492,7 +490,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_sample4.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -515,7 +513,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_sample5.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -538,7 +536,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_sample6.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -561,7 +559,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_sample7.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -583,7 +581,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_sample8.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -605,7 +603,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_sample9.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -627,7 +625,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_sample10.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -649,7 +647,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_sample11.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -671,7 +669,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_t2i_sample1.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -693,7 +691,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_t2i_sample2.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -715,7 +713,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_t2i_sample3.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -737,7 +735,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_t2i_sample4.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -759,7 +757,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_t2i_sample5.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
@@ -781,7 +779,7 @@ Proving that classifiers have learned the data distribution and are ready for im
         <a href="" target="_blank">
         <div align="center">
           <img class="cover" id="mag" src="./cag_ablation.png"
-            style="width:50%; margin-bottom:20px">
+            style="width:100%; margin-bottom:20px">
           <!-- <img class="cover" id="mag"  src="https://images.alphacoders.com/108/1086836.jpg" style="width:100%; margin-bottom:20px"> -->
         </div>    
         </a>
